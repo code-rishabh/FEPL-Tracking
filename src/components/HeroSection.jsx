@@ -21,7 +21,7 @@ const HeroSection = () => {
           <p className="font-bold">Ship Now</p>
           <p className="text-black/80">Find the right service</p>
         </div>
-        <hr className="w-full"/>
+        <hr className=" md:hidden w-full"/>
         <span className="hidden md:block border h-full border-black/20"></span>
         <div className="hover:scale-105 duration-300 gap-2 h-full w-full items-center justify-center flex flex-col rounded-r-xl">
           <span>

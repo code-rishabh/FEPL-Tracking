@@ -3,7 +3,7 @@ import bgImage from "../assets/shipping-image-4.jpg";
 
 const SecondSection = () => {
   return (
-    <div className="w-[90vw] self-center mt-[20vh] h-screen flex flex-col md:flex-row items-center justify-center">
+    <div className="w-[90vw] self-center my-[30vh] md:mt-[20vh] h-screen flex flex-col md:flex-row items-center justify-center">
       <img
         src={bgImage}
         className="md:hidden object-cover rounded-t-xl md:rounded-xl h-[50vh] w-full"
