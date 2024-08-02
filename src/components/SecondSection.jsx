@@ -3,13 +3,13 @@ import bgImage from "../assets/shipping-image-4.jpg";
 
 const SecondSection = () => {
   return (
-    <div className="w-[90vw] self-center my-[30vh] md:my-0 md:mt-[20vh] h-screen flex flex-col md:flex-row items-center justify-center">
+    <div className="w-[90vw] self-center my-[30vh] lg:my-0 lg:mt-[20vh] h-screen flex flex-col lg:flex-row items-center justify-center">
       <img
         src={bgImage}
-        className="md:hidden object-cover rounded-t-xl md:rounded-xl h-[50vh] w-full"
+        className="lg:hidden object-cover rounded-t-xl lg:rounded-xl h-[50vh] w-full"
         alt=""
       />
-      <div className="flex flex-col bg-white gap-9 shadow-black/50 shadow-md  md:w-[50%] md:h-[70vh] rounded-b-xl md:rounded-l-xl p-5">
+      <div className="flex flex-col bg-white gap-9 shadow-black/50 shadow-lg  lg:w-[50%] lg:h-[70vh] rounded-b-xl lg:rounded-l-xl p-5">
         <div className="flex flex-col gap-5">
           <p className="text-4xl font-bold">Document and Parcel Shipping</p>
           <p className="text-xl">For All Shippers</p>
@@ -37,7 +37,7 @@ const SecondSection = () => {
       </div>
       <img
         src={bgImage}
-        className="hidden md:block object-cover rounded-xl h-[85vh] w-[40%]"
+        className="hidden lg:block object-cover rounded-xl h-[85vh] w-[40%]"
         alt=""
       />
     </div>

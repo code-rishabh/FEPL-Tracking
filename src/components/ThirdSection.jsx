@@ -3,13 +3,13 @@ import bgImage from "../assets/shipping-image-5.jpg";
 
 const ThirdSection = () => {
   return (
-    <div className="w-[90vw] self-center my-[20vh] md:my-0 h-screen flex flex-col md:flex-row items-center justify-center">
+    <div className="w-[90vw] self-center my-[20vh] lg:my-0 h-screen flex flex-col lg:flex-row items-center justify-center">
       <img
         src={bgImage}
-        className="object-cover rounded-t-xl md:rounded-xl h-[50%] md:h-[85vh] w-full md:w-[40%]"
+        className="object-cover rounded-t-xl lg:rounded-xl h-[50%] lg:h-[85vh] w-full lg:w-[40%]"
         alt=""
       />
-      <div className="flex flex-col bg-white gap-9 shadow-black/50 shadow-md w-full md:w-[50%] md:h-[70vh] rounded-b-xl md:rounded-r-xl p-5">
+      <div className="flex flex-col bg-white gap-9 shadow-black/50 shadow-lg w-full lg:w-[50%] lg:h-[70vh] rounded-b-xl lg:rounded-r-xl p-5">
         <div className="flex flex-col gap-5">
           <p className="text-4xl font-bold">Cargo Shipping</p>
           <p className="text-xl">Business Only</p>
