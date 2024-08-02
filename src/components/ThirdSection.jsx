@@ -3,13 +3,13 @@ import bgImage from "../assets/shipping-image-5.jpg";
 
 const ThirdSection = () => {
   return (
-    <div className="w-[90vw] self-center mt-[20vh] h-screen flex items-center justify-center">
+    <div className="w-[90vw]  self-center mt-[35vh] md:mt-[20vh] h-screen flex flex-col md:flex-row items-center justify-center">
       <img
         src={bgImage}
-        className="object-cover rounded-xl h-[85vh] w-[40%]"
+        className="object-cover rounded-t-xl md:rounded-xl h-[50%] md:h-[85vh] w-full md:w-[40%]"
         alt=""
       />
-      <div className="flex flex-col bg-white gap-9 shadow-black/50 shadow-md w-[50%] h-[70vh] rounded-r-xl p-5">
+      <div className="flex flex-col bg-white gap-9 shadow-black/50 shadow-md w-full md:w-[50%] h-[70vh] rounded-b-xl md:rounded-r-xl p-5">
         <div className="flex flex-col gap-5">
           <p className="text-4xl font-bold">Cargo Shipping</p>
           <p className="text-xl">Business Only</p>
@@ -34,6 +34,7 @@ const ThirdSection = () => {
           Explore ForeExcel Shipping
         </button>
       </div>
+      
     </div>
   );
 };

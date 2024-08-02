@@ -8,8 +8,8 @@ import {
 
 const Footer = () => {
   return (
-    <div className="bg-black m-auto p-10 flex items-center flex-col text-slate-300 text-sm">
-      <div className="flex m-auto w-full justify-center gap-40 p-10">
+    <div className="bg-gradient-to-bl from-red-800 to-black mt-[20vh] md:m-auto p-10 flex items-center flex-col text-slate-300 text-sm">
+      <div className="flex flex-col md:flex-row m-auto w-full justify-center gap-20 md:gap-40 md:p-10">
         <div className="flex flex-col gap-5 leading-8 w-full">
           <span>
             <img src={heroImage} className="h-20" alt="" />

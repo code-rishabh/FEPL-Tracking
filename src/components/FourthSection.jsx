@@ -3,8 +3,13 @@ import bgImage from "../assets/shipping-image-3.jpg";
 
 const FourthSection = () => {
   return (
-    <div className="w-[90vw] self-center mt-[20vh] h-screen flex items-center justify-center">
-      <div className="flex flex-col bg-white gap-9 shadow-black/50 shadow-md w-[50%] h-[70vh] rounded-l-xl p-5">
+    <div className="w-[90vw] self-center mt-[20vh] h-screen flex flex-col md:flex-row items-center justify-center">
+      <img
+        src={bgImage}
+        className="block md:hidden object-cover rounded-t-xl md:rounded-xl h-[50%] md:h-[85vh] w-full md:w-[40%]"
+        alt=""
+      />
+      <div className="flex flex-col bg-white gap-9 shadow-black/50 shadow-md w-full md:w-[50%] md:h-[70vh] md:rounded-l-xl rounded-b-xl p-5">
         <div className="flex flex-col gap-1">
           <p className="text-4xl font-bold">Enterprise Logistics Services</p>
           <p className="text-xl">Business Only</p>
@@ -34,7 +39,7 @@ const FourthSection = () => {
       </div>
       <img
         src={bgImage}
-        className="object-cover rounded-xl h-[85vh] w-[40%]"
+        className="hidden md:block object-cover rounded-xl h-[85vh] w-[40%]"
         alt=""
       />
     </div>
