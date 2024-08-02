@@ -3,7 +3,7 @@ import bgImage from "../assets/shipping-image-3.jpg";
 
 const FourthSection = () => {
   return (
-    <div className="w-[90vw] self-center my-[30vh] h-screen flex flex-col md:flex-row items-center justify-center">
+    <div className="w-[90vw] self-center my-[20vh] md:my-0 h-screen flex flex-col md:flex-row items-center justify-center">
       <img
         src={bgImage}
         className="block md:hidden object-cover rounded-t-xl md:rounded-xl h-[50%] md:h-[85vh] w-full md:w-[40%]"
