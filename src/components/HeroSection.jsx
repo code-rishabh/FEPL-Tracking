@@ -13,7 +13,7 @@ const HeroSection = () => {
           </button>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row bg-white rounded-xl absolute md:w-[50%] w-[70%] justify-center h-[35%] md:h-[20vh] items-center top-[60%] md:top-[85%] left-[15%] md:left-[25%] shadow-sm shadow-black/50">
+      <div className="flex flex-col md:flex-row bg-white rounded-xl absolute md:w-[50%] w-[80%] justify-center h-[35%] md:h-[20vh] items-center top-[60%] md:top-[85%] left-[10%] md:left-[25%] shadow-sm shadow-black/50">
         <div className="hover:scale-105 duration-300 gap-2 h-full w-full items-center justify-center flex flex-col rounded-l-xl ">
           <span>
             <SlCalender size={20} fill="red"/>
